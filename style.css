@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+:root{
+--Cyan: hsl(179, 62%, 43%);;
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+.container{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: auto;
+    height: auto;
+    position: relative;
+    top: 12px;
+    left: 54px; */
+    /* margin-top: 100px; */
+    /* border-radius: 12px; */
+    background-color: var(--Light-Gray);  
+    height: 650px;
+}
+
+.main-box{
+    /* display: block; */
+    /* justify-content: center; */
+    /* position: relative;
+    top: 54px;
+    left: 54px; */
+    border-radius: 20px 20px 20px 20px;
+    
+    box-shadow: 2px 2px 36px 2px var(--Grayish-Blue);
+    width: 70%;
+}
+
+.join-our-community{
+    border-radius: 20px 20px 0 0;
+    width: 100% ;
+    height: 13rem;
+    padding:  20px 40px 40px 40px;
+    line-height: 2;
+    overflow: hidden;
+    background-color: white;
+}
+.join-our-community h1{
+    font-size: 28px;
+    color: var(--Cyan);
+}
+
+.join-our-community span{
+    font-size: 20px;
+    color: var(--Bright-Yellow);
+    font-weight: 700;
+}
+
+.join-our-community p{
+    padding-right: 45px;
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+
+
+.second-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    
+}
+
+.monthly{
+    display: flex;
+    
+    flex-direction: column;
+    float: left;
+    width: 50%;
+    padding: 20px 40px 40px 40px;
+    background-color: var(--Cyan);
+    color: white;
+    line-height: 1.9;
+    overflow: hidden;
+    border-radius: 0 0 0 20px;
+}
+
+.monthly h1{
+    font-weight: 700;
+}
+
+.doller p{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.doller p span{
+    vertical-align: middle;
+    color: var(--Light-Gray);
+    font-weight: 400;
+    
+}
+
+.anker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.anker a{
+    box-shadow: 6px 12px 35px 0px rgb(152, 151, 155);
+    text-align: center;
+    border-radius: 9px;
+    background-color: var(--Bright-Yellow);
+    text-decoration: none;
+    color: #fbfbfb;
+    padding: 10px;
+    width: 350px;
+    font-weight: 700;
+
+}
+
+
+
+.why-us{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px 40px 40px 40px;
+    background-color: rgb(111, 206, 193);
+    color: white;
+    border-radius: 0 0 20px 0;
+    overflow: hidden;
+}
+
+.why-us h1{
+    font-size: 20px;
+    line-height: 2.9;
+}
+
+.why-us p{
+    width: 200px;
+    line-height: 1.2;
+    color: var(--Light-Gray);
+    height: auto;
+    
+    
+}
+@media (max-width: 954px){
+    .join-our-community ,
+    .second-box{
+        height: auto;
+        
+        
+    }
+}
+
+@media(max-width: 670px){
+    .container{
+        height: 1000px;
+    }
+    
+    .main-box{
+        height: 770px;
+    }
+    
+    .join-our-community{
+        height: 340px;
+    }
+    
+    .second-box{
+        display: block;
+    }
+    .monthly{
+        border-radius: 0;
+        width: 100%;
+        border: 0;
+    }
+    .why-us{
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700  */
